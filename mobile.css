@@ -1,0 +1,155 @@
+/* mobile responsive css :  */
+
+    @media screen and (max-width: 700px)
+    {
+        .logo{
+            font-size: 30px;        
+        }
+        .sub-nav{
+            font-size: 26px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 12px;
+            margin: 0 auto;
+            
+        }
+        .con-main-page{
+            margin-top: 45px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+        }
+        .nav-links{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 20px;
+            margin: 0 auto;
+            
+        }
+        .sub-nav i{
+            font-size: 20px;
+            position: relative;
+            left: auto;
+            color: black;
+        }
+        nav li{
+            list-style: none;
+            display: inline-block;
+            padding: 5px;
+        
+        }
+
+        .homebtn{
+            display: none;
+        }
+
+
+        .main-page{
+            font-size: 28px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .img-main img{
+            /* width: 60%;
+            */
+            max-width: 64%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+        #imgg{
+            float: none;
+            
+        }
+        .nav-box{
+            margin: 0;
+        }
+
+
+        
+        #darkmodebtn{
+            font-size: 24px;
+            position: relative;
+            left: 0;
+          }
+          .skill-titile{
+            text-align: center;
+            font-size: 26px;
+            text-transform: uppercase;
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+          
+        }
+
+          .skill-logo{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .skill-logo img{
+            width: 100px;
+            height: auto;
+        }
+
+        .myproject{
+            text-align: center;
+            font-size: 32px;
+            text-transform: uppercase;
+            margin-top: 0px;
+            font-family: Helvetica;
+          }
+          .skill-logo img{
+            margin: 10px;
+        }
+
+          
+.con{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+  }
+  
+  
+  .card{
+    margin:  10px;
+    color: white;
+    text-align: center;
+    width: 365px;
+    height: 235px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color:#424769;
+  }
+  
+  
+  .cardbtb{
+    border:none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+  
+  .cardtitle{
+    font-size: 30px;
+    margin-top: 14px;
+  }
+  
+  .cardsub{
+    font-size: 18px;
+  }
+
+}
+
+
+
+
+
